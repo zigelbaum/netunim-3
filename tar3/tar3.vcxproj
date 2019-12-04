@@ -115,6 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BNode.cpp" />
+    <ClCompile Include="BTree.cpp" />
+    <ClCompile Include="Lending.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BNode.h" />
+    <ClInclude Include="BTree.h" />
+    <ClInclude Include="Lending.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
